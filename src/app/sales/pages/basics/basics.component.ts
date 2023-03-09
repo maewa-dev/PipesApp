@@ -11,6 +11,7 @@ export class BasicsComponent {
   upperName: string = 'maewa';
   name: string = 'maEwa RodriGuEz';
 
+  date: Date = new Date();
 
   ngOnInit(): void {
   }
