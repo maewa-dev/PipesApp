@@ -2,4 +2,9 @@
     <h1>{{ name | titlecase }}</h1>
 </div>
 
-<button pButton label="Cambiar Nombre" (click)="showName()"></button>
+<button pButton icon="pi pi-check" iconPos="right" class="p-button-secondary" label="Cambiar Nombre" (click)="showName()"></button>
+
+
+<p-card [header]="name | titlecase" subheader="Esto es un subheader"  >
+    Content
+</p-card>
