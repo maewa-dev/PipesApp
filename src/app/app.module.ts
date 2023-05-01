@@ -8,6 +8,13 @@ import { RouterModule } from '@angular/router';
 import { SalesModule } from './sales/sales.module';
 
 
+//Configuracion del locale de la app
+import es from '@angular/common/locales/es'
+import { registerLocaleData } from '@angular/common';
+
+
+registerLocaleData (es);
+
 @NgModule({
   declarations: [
     AppComponent
